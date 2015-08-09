@@ -54,8 +54,7 @@ p.balloon-right {
 	z-index: 1;
 /*	max-width: 80%;
 	min-width: 10%;*/
-	max-width: 400px;
-	min-width: 50px;
+	width: 400px;
 	margin: 15px auto;
 	padding: 13px;
 	background-color: #fff;
@@ -132,6 +131,12 @@ p.balloon-right::after {
 	clear: both;
 	width: 100%;
 	height: 1px;
+	margin: 0px;
+}
+.useful{
+	font-size: 0.8em;
+	color: #0000FF;
+	margin: 5px 5px 5px 20px;
 }
 /* -------------------------------------------- */
 #header {
